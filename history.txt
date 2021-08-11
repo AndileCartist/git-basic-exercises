@@ -1,0 +1,122 @@
+    1  git remote add origin https://github.com/AndileCartist/Original-Zar.git
+    2  cd users
+    3  cd desktop
+    4  cd c-projects/zazen/front-end
+    5  git remote add origin https://github.com/AndileCartist/Original-Zar.git
+    6  git remote add originalzar https://github.com/AndileCartist/Original-Zar.git
+    7  git push -u originalzar
+    8  git config --global --unset-all remote.origin.proxy
+    9  git push -u originalzar
+   10  git commit
+   11  git add --all
+   12  git commit
+   13  git commit -m "initial"
+   14  git push -u originalzar
+   15  ls
+   16  cd desktop/c-projects/unix/
+   17  touch heaven.txt
+   18  ls
+   19  touch earth.txt
+   20  cd /
+   21  cd desktop/c-projects/unix/
+   22  cd desktop/c-projects/unix/
+   23  ls
+   24  ls ..
+   25  cd mingw64
+   26  ls
+   27  cd ..
+   28  cd C:\Users\Phili\Desktop\c-projects\unix
+   29  cd C:/Users/Phili/Desktop/c-projects/unix
+   30  git checkout -b content
+   31  vim index.html
+   32  ls
+   33  nano readme.txt 
+   34  git checkout master 
+   35  git checkout content 
+   36  git status
+   37  git add .
+   38  git checkout master 
+   39  git checkout content 
+   40  git commit -m "added file and updated readme
+
+git commit -m "added file and updated readme
+   41  git commit -m "added file and updated readme
+
+git commit -m "added file and updated readme"
+git commit -m "added file"
+git status
+'
+
+   42  git status
+   43  git add .
+   44  git commit -m "added file"
+   45  git status
+   46  git checkout master 
+   47  git merge content
+   48  git branch
+   49  git branch -d content 
+   50  git branch
+   51  git status
+   52  git branch -v
+   53  git branch --merged
+   54  git branch --no-merged
+   55  git branch --all
+   56  git remote
+   57  systeminfo
+   58  cd ..
+   59  mkdir git-basic-exercies
+   60  cd git-basic-exercies/
+   61  ls -a
+   62  ls
+   63  git init
+   64  ls
+   65  ls -a
+   66  git status
+   67  touch README.md
+   68  ls -a
+   69  git status
+   70  git log
+   71  git add .
+   72  git status 
+   73  git rm --cached README.md 
+   74  git status
+   75  git add .
+   76  git commit -m "initial commit"
+   77  git log
+   78  nano README.md 
+   79  cat README.md 
+   80  git status
+   81  git commit -m "second commit"
+   82  git add .
+   83  git commit -m "second commit"
+   84  nano README.md 
+   85  git add .
+   86  git commit -m "third commit"
+   87  git status
+   88  git log
+   89  git checkout b2336ef5808852159ef30ed3e7f6fff603d73c49
+   90  cat README.md 
+   91  git checkout master 
+   92  cat README.md 
+   93  git checkout -b milkshake-flavours
+   94  git branch
+   95  nano milkshakes.md
+   96  git add .
+   97  git commit -m "added initial flavours"
+   98  git --no-merged
+   99  git branch --no-merged
+  100  git checkout master 
+  101  git branch --no-merged
+  102  git checkout milkshake-flavours 
+  103  ls 
+  104  git checkout master 
+  105  ls
+  106  git checkout milkshake-flavours 
+  107  git log
+  108  git log
+  109  git checkout master 
+  110  git log
+  111  git checkout -b history
+  112  git log
+  113  git branch 
+  114  history > history.txt
